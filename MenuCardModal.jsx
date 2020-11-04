@@ -1,15 +1,3 @@
-import React, {forwardRef, useImperativeHandle, useState} from "react"
-import Modal from "react-bootstrap/Modal"
-import Button from "react-bootstrap/Button"
-// import Form from "react-bootstrap/Form"
-import PropTypes from "prop-types"
-import * as cartService from "../../services/cartService"
-import styles from "./menu.module.css"
-import FormControl from "react-bootstrap/FormControl"
-import { Formik } from 'formik';
-import logger from "sabio-debug"
-import "./modalSpinner.css"
-
 const _logger = logger.extend("cardModal");
 
 
