@@ -1,18 +1,3 @@
-import React from "react"
-import * as menuService from "../../services/menus/menuService"
-import logger from "sabio-debug"
-import PropTypes from "prop-types"
-import MenuCard from "./MenuCard";
-import ItemTypeCard from "./ItemTypeCard"
-import styles from "../menus/menu.module.css"
-import vendorServices from "../../services/vendorServices";
-import * as productService from "../../services/productService"
-import {Link} from "react-router-dom"
-import FullMenu from "./FullMenu"
-import { toast } from "react-toastify";
-import "../../styles/body.css"
-
-
 const _logger = logger.extend("menu");
 
 
