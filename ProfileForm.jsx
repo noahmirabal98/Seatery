@@ -1,14 +1,3 @@
-import React from "react";
-import logger from "sabio-debug";
-import * as profileService from "../../services/profiles/profileService";   
-import { Form, FormGroup, Label, Button } from "reactstrap";
-import { Formik, Field, ErrorMessage } from "formik";
-import PropTypes from "prop-types";
-import styles from "../profiles/profile.module.css"
-import Validation from "./Validation"
-import Upload from "../files/Upload"
-
-
 const _logger = logger.extend("SabioInit");
 
 class ProfileForm extends React.Component {
