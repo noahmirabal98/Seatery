@@ -1,4 +1,4 @@
-namespace Sabio.Web.Api.Controllers
+namespace blank.Web.Api.Controllers
 {
     [Route("api/profiles")]
     [ApiController]
