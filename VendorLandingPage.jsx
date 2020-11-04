@@ -1,13 +1,3 @@
-import React from "react"
-import vendorServices from "../../services/vendorServices"
-import logger from "sabio-debug"
-import VendorCard from "./VendorCard"
-// import styles from "../menus/menu.module.css"
-import stylez from "../profiles/profile.module.css";
-import "../../styles/body.css"
-import { toast } from "react-toastify";
-
-
 const _logger = logger.extend("vendorLandingPage");
 
 
